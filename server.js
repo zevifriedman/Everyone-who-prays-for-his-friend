@@ -25,7 +25,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 // הגדרת המסלול לטעינת kol.html
 app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname, 'kol.html' ));
+  res.sendFile(path.join(__dirname, 'index.html' ));
 });
 
 // API לשליחת התראה
